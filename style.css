@@ -7,21 +7,28 @@ display: grid;
 .navbar_grid {
 display: grid;
 grid-template-columns: 3fr 100px 100px 100px;
-grid-template-rows: 35px;
-background-color: green;
+grid-template-rows: 1.5em;
+background-color: #C2185B;
 grid-column-gap: 25px;
 }
-
+.me {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+}
 .about_me_nav {
 border: 2px solid black;
 grid-column-start: 2;
-grid-column-end: 3
+grid-column-end: 3;
+padding-left: 0.5em;
 }
 .projects_nav {
 border: 2px solid black;
+padding-left: 0.5em;
 }
 .contact_me_nav {
 border: 2px solid black;
+padding-left: 0.5em;
 }
 
 .about_me_landing_grid {
