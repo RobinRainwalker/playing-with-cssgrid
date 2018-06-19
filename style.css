@@ -1,68 +1,68 @@
-.wrapper {
+#wrapper {
 background-color: salmon;
 border: 5px solid pink;
 display: grid;
 }
 
-.navbar_grid {
+#navbar_grid {
 display: grid;
 grid-template-columns: 3fr 100px 100px 100px;
 grid-template-rows: 1.5em;
 background-color: #C2185B;
 grid-column-gap: 25px;
 }
-.me {
+#me {
   grid-column-start: 1;
   grid-column-end: 2;
   text-align: center;
 }
-.about_me_nav {
+#about_me_nav {
 border: 2px solid black;
 grid-column-start: 2;
 grid-column-end: 3;
 padding-left: 0.5em;
 }
-.projects_nav {
+#projects_nav {
 border: 2px solid black;
 padding-left: 0.5em;
 }
-.contact_me_nav {
+#contact_me_nav {
 border: 2px solid black;
 padding-left: 0.5em;
 }
 
-.about_me_landing_grid {
+#about_me_landing_grid {
 
 }
-.about_me_title {
+#about_me_title {
 
 }
-.about_me_pictures {
+#about_me_pictures {
 
 }
-.about_me_main {
+#about_me_main {
 
 }
-.about_me_footer {
-
-}
-
-.projects_grid {
-
-}
-.personal_projects {
-
-}
-.general_assembly {
-
-}
-.bvtca {
-
-}
-.apex_solar_power {
+#about_me_footer {
 
 }
 
-.contact_me_footer {
+#projects_grid {
+
+}
+#personal_projects {
+
+}
+#general_assembly {
+
+}
+#bvtca {
+
+}
+#apex_solar_power {
+
+}
+
+#contact_me_footer {
 
 }
