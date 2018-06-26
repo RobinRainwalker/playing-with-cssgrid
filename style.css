@@ -24,7 +24,7 @@ padding-left: 0.5em;
 }
 #projects_nav {
 border: 2px solid black;
-padding-left: 0.5em;
+padding-left: 0.5em; 
 }
 #contact_me_nav {
 border: 2px solid black;
@@ -32,10 +32,13 @@ padding-left: 0.5em;
 }
 
 #about_me_landing_grid {
-
+  /* display: grid; */
+  border: 1px solid blueviolet;
 }
 #about_me_title {
-
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.5em;
+  background-color: goldenrod;
 }
 #about_me_pictures {
 
@@ -48,7 +51,10 @@ padding-left: 0.5em;
 }
 
 #projects_grid {
-
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1.5em;
+background-color: lightcoral;
+border: 3px solid orange;
 }
 #personal_projects {
 
